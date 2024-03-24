@@ -14,8 +14,10 @@ public class Exercicio10 {
         vetor1[i] = num.nextInt();
         }
     
-    
-        for(int i = 0;i<5;i++){
+        for(int i=0;i<4;i++){
+            vetor2[i]=vetor1[4-i];
+        }
+        for(int i=0;i<4;i++){
         Prompt.imprimir(vetor2[i]);
         }
 
